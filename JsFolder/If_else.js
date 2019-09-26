@@ -35,7 +35,7 @@ let hasPaymentToken = true
 
 if(!isVarified && isLoggedToken && hasPaymentToken){
 
-    console.log("Hello folk");
+    console.log("Hello folk...");
 }
 else if(isVarified || isGuest ){
     console.log("Allow free preview");
